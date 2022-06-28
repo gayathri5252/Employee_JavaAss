@@ -1,0 +1,23 @@
+ascending order:
+
+Collections.sort(emp, new Comparator<Employee>() {
+				public int compare(Employee o1, Employee o2) {
+					return o1.getDateOfBirth().compareTo(o2.getDateOfBirth());
+				}
+			});
+			
+descending order:
+Collections.sort(emp, new Comparator<Employee>() {
+				public int compare(Employee o1, Employee o2) {
+					return o2.getDateOfBirth().compareTo(o1.getDateOfBirth());
+				}
+			});
+			
+empbyid
+
+//		for (Employee empDet : emp) {
+//			if (empDet.getEmployeeID() == id) {
+//				emply = empDet;
+//			}
+//		}
+
